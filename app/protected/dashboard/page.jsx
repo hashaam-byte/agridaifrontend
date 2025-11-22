@@ -26,10 +26,10 @@ export default function DashboardContent() {
   ];
 
   const quickActions = [
-    { icon: Cloud, label: 'Check Weather', color: 'blue', href: '/weather' },
-    { icon: Activity, label: 'Ask AI Assistant', color: 'emerald', href: '/assistant' },
-    { icon: TrendingUp, label: 'View Market', color: 'yellow', href: '/market' },
-    { icon: CheckCircle, label: 'Crop Calendar', color: 'purple', href: '/calendar' }
+    { icon: Cloud, label: 'Check Weather', color: 'blue', href: '/protected/weather' },
+    { icon: Activity, label: 'Ask AI Assistant', color: 'emerald', href: '/protected/assistant' },
+    { icon: TrendingUp, label: 'View Market', color: 'yellow', href: '/protected/market' },
+    { icon: CheckCircle, label: 'Crop Calendar', color: 'purple', href: '/protected/calendar' }
   ];
 
   return (
