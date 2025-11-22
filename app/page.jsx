@@ -282,7 +282,7 @@ export default function LandingPage() {
           <p className="text-xl mb-8 text-emerald-50">
             Join thousands of farmers already using AI to maximize their yields
           </p>
-          <a href="/register" className="inline-flex items-center gap-2 px-8 py-4 rounded-lg bg-white text-emerald-600 hover:bg-gray-100 transition text-lg font-semibold">
+          <a href="/auth/register" className="inline-flex items-center gap-2 px-8 py-4 rounded-lg bg-white text-emerald-600 hover:bg-gray-100 transition text-lg font-semibold">
             Get Started Free <ChevronRight className="w-5 h-5" />
           </a>
         </div>
