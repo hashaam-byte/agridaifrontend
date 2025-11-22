@@ -1,3 +1,4 @@
+'use client'
 import React, { useState, useRef, useEffect } from 'react';
 import { 
   Leaf, Menu, X, Home, Sprout, Cloud, TrendingUp, MessageSquare, 
